@@ -28,7 +28,7 @@ const Header = () => {
 
     return (
     <div className='header'>
-        <Link to="/">
+        <Link to="/crud-firebase">
             <p className='logo'>Sistema de usuarios</p>
         </Link>
         <div className='header-right'>

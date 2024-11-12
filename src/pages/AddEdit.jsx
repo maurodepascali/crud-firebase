@@ -14,7 +14,7 @@ const AddEdit = () => {
 
   const [state, setState] = useState(initialState)
   const [data, setData] = useState({})
-
+  const navigate = useNavigate();
   const {name, email, contact} = state;
 
   const {id} = useParams()
@@ -84,7 +84,7 @@ const AddEdit = () => {
             toast.error(error.message);
           }
     }
-    setTimeout(() => window.location.href = "/crud-firebase", 1000);
+    setTimeout(() =>  navigate("/crud-firebase"), 1000);
   }
 }
   
