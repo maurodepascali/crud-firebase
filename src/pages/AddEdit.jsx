@@ -84,7 +84,7 @@ const AddEdit = () => {
             toast.error(error.message);
           }
     }
-    setTimeout(() =>  navigate("/crud-firebase"), 1000);
+    setTimeout(() => navigate("/"), 1000);
   }
 }
   
