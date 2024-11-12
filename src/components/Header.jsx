@@ -28,7 +28,7 @@ const Header = () => {
 
     return (
     <div className='header'>
-        <Link to="/crud-firebase">
+        <Link to="/">
             <p className='logo'>Sistema de usuarios</p>
         </Link>
         <div className='header-right'>
@@ -49,7 +49,7 @@ const Header = () => {
                 Inicio
                 </p>     
             </Link>
-            <Link to="/crud-firebase/add">
+            <Link to="/add">
                 <p 
                     className={`${activeTab === "AddContact" ? "active" : ""}`}
                     onClick={() => setActiveTab("AddContact")}
