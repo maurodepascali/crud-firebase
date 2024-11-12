@@ -12,7 +12,7 @@ import Search from "./pages/Search";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/crud-firebase">
       <div className="App">
         <Header/>
         <ToastContainer position="top-center"/>
