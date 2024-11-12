@@ -49,7 +49,7 @@ const Header = () => {
                 Inicio
                 </p>     
             </Link>
-            <Link to="/add">
+            <Link to="/crud-firebase/add">
                 <p 
                     className={`${activeTab === "AddContact" ? "active" : ""}`}
                     onClick={() => setActiveTab("AddContact")}

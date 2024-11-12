@@ -84,7 +84,7 @@ const AddEdit = () => {
             toast.error(error.message);
           }
     }
-    setTimeout(() => window.location.href = "/", 1000);
+    setTimeout(() => window.location.href = "/crud-firebase", 1000);
   }
 }
   
