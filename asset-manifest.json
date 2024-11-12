@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/crud-firebase/static/css/main.b502e885.css",
-    "main.js": "/crud-firebase/static/js/main.321a4c7f.js",
+    "main.js": "/crud-firebase/static/js/main.cca53750.js",
     "static/js/453.8bcfddb8.chunk.js": "/crud-firebase/static/js/453.8bcfddb8.chunk.js",
     "index.html": "/crud-firebase/index.html",
     "main.b502e885.css.map": "/crud-firebase/static/css/main.b502e885.css.map",
-    "main.321a4c7f.js.map": "/crud-firebase/static/js/main.321a4c7f.js.map",
+    "main.cca53750.js.map": "/crud-firebase/static/js/main.cca53750.js.map",
     "453.8bcfddb8.chunk.js.map": "/crud-firebase/static/js/453.8bcfddb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b502e885.css",
-    "static/js/main.321a4c7f.js"
+    "static/js/main.cca53750.js"
   ]
 }
