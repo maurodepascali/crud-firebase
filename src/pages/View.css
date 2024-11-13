@@ -1,0 +1,32 @@
+.view-container {
+    margin-top: 80px;
+    padding: 0 15px;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card-header {
+    background: #5d6779;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .view-container {
+        margin-top: 80px;
+    }
+}
